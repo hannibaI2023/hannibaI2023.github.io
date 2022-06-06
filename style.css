@@ -1,0 +1,39 @@
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+
+#terminal{
+	--size: 1.5;
+	--background: #222222;
+	--font: Consolas, Monospace;
+	--link: indigo;
+}
+
+html{
+	min-width: 960px;
+}
+
+body{
+	/* border */
+	border-style: solid;
+	border-radius: 5px;
+	border-width: medium;
+	border-color: purple;
+
+	/* background */
+	background: #222222;
+
+	/* padding */
+	padding: 20px;
+	padding-top: 0px;
+}
+
+#credit{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 10px;
+	text-align: right;
+	color: white;
+	padding-right: 10px;
+}
